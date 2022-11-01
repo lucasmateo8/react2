@@ -1,0 +1,13 @@
+.cart{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
