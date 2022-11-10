@@ -4,10 +4,13 @@ import './style.css'
 
 //Se encarga de hacer el map con los productos
 const ItemList = ({products}) => {
-  return  ( 
-    products.map(product => {
-        return <Item product={product}/>
-    })
+  return  ( <div className='item-list'>
+    {products.map(item => {
+        return <div key={item.id}>
+          <Item item={item}/>
+          </div>
+    })}
+    </div>
     )
 }
 

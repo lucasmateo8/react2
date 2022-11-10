@@ -2,12 +2,13 @@ import React from 'react'
 import './styles.css';
 
 //Card
-const Item = ({product}) => {
+const Item = ({item}) => {
+  const cargarImagen = require.context("../../data/images", true);
   return (
     <div className='item'>
-      <img src={product.image} alt=""/>
-      <p key={product.id}>{product.name} stock: {10}</p>
-      <p>{product.name}</p>
+      <img src={cargarImagen(`./${item.image}`)} alt=""/>
+      <p>{item.title}</p>
+      <p>${item.price}</p>
     </div>
   )
 }
