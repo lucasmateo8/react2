@@ -16,11 +16,13 @@ const ItemDetailContainer = () => {
                         accept (products)
                     }, 2000)
                 })
-                promesa.then(resp => setItem(resp.find(item => item.id === parseInt(id))))
+                
+                promesa.then(resp => {
+                    setItem(resp.items.find(item => item.id === parseInt(id)))})
             } catch (error) {             
             }
         })()
-    }, [])
+    }, [id])
 
     return ( <ItemDetail item={item}/> )
 };
