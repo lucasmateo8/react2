@@ -3,8 +3,9 @@ import ItemCount from '../ItemCount';
 import './styles.css';
 
 
+
 const ItemDetail = ({item}) => {
-    const cargarImagen = require.context("../../data/images", true);
+    
   return (
     <div className='item-detail'>
       <img src={item.image} alt=""/>

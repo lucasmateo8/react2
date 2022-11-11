@@ -7,7 +7,7 @@ const products = {
         price: 401,
         image: 'https://imgur.com/KYofY0E.png',
         category: "nike",
-        cantidad: 1,
+        stock: 5,
       },
       {
         id: 2,
@@ -15,7 +15,7 @@ const products = {
         price: 304,
         image: 'https://imgur.com/UF7pmpE.png',
         category: "nike",
-        cantidad: 1
+        stock: 5,
       },
       {
         id: 3,
@@ -23,7 +23,7 @@ const products = {
         price: 475,
         image: 'https://imgur.com/eW4MFjt.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 4,
@@ -31,7 +31,7 @@ const products = {
         price: 399,
         image: 'https://imgur.com/7pKj42s.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 5,
@@ -39,7 +39,7 @@ const products = {
         price: 405,
         image: 'https://imgur.com/ODjgzNS.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 6,
@@ -47,7 +47,7 @@ const products = {
         price: 285,
         image: 'https://imgur.com/8GJyixf.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 7,
@@ -55,7 +55,7 @@ const products = {
         price: 360,
         image: 'https://imgur.com/Jpt6JHz.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 8,
@@ -63,7 +63,7 @@ const products = {
         price: 335,
         image: 'https://imgur.com/zB9w7FA.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 9,
@@ -71,7 +71,7 @@ const products = {
         price: 799,
         image: 'https://imgur.com/HUzd0oP.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 10,
@@ -79,7 +79,7 @@ const products = {
         price: 501,
         image: 'https://imgur.com/DyII9Xt.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
       {
         id: 11,
@@ -87,7 +87,7 @@ const products = {
         price: 377,
         image: 'https://imgur.com/8oapjZP.png',
         category: "nike",
-        cantidad: 1
+        stock: 1
       },
     ],
   };
