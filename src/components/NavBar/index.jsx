@@ -11,13 +11,14 @@ const NavBar = () => {
                 <Link to="/">INICIO</Link>
             </li>
             <li>
-            <Link to ="/category/nike">PRODUCTOS</Link>
+            <Link to ="/category/all">PRODUCTOS</Link>
             </li>
             <li>
                 <a href="#contact">NOSOTROS</a>
             </li>
-            
+            <Link to ="/cart" > 
             <CartWidget />
+            </Link>
         </ul>
     );
 };
