@@ -1,0 +1,18 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.confirmarcompra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nopurch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}

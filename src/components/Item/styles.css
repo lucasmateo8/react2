@@ -1,13 +1,32 @@
 .item {
-    display: flex;
-    flex-direction: column;
-    border: 10px;
-    border-radius: 10px;
-margin: 20px;
-background-color: chartreuse;
-
+  display: flex;
+  flex-direction: column;
+  border: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: blanchedalmond;
+  border: black 5px solid;
+  border-radius: 15px;
+  overflow: hidden;
 }
-img{
-    height: 200px;
-    width: 300px;
+img {
+  height: 200px;
+  width: 300px;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  color: black;
+  font-weight: bold;
+}
+.pp {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  color: black;
 }

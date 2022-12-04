@@ -1,0 +1,31 @@
+.item-detail {
+  display: flex;
+  align-items: center;
+  border: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: blanchedalmond;
+  border: black 5px solid;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.ptitle {
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  transform: translateX(100px);
+}
+.pprice {
+  display: flex;
+  transform: translateX(200px);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  color: black;
+}
+
+.icart {
+  transform: translateX(100px);
+}

@@ -1,17 +1,20 @@
-
-
-.brief{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vh;
-    margin: 50px;
+.brief {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: blanchedalmond;
+  border: black 5px solid;
+  border-radius: 15px;
+  overflow: hidden;
 }
-.basura img{
-    width: 50px;
-    height: 50px;
-    
+.basura img {
+  width: 50px;
+  height: 50px;
 }
-.basura{
-    cursor: pointer;
+.basura {
+  cursor: pointer;
 }

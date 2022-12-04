@@ -1,7 +1,23 @@
-h1{
-    display: flex;
-    justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique;
-    margin: 50px;
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  margin: 50px;
+  color: aliceblue;
+  font-weight: bolder;
+}
+.zapas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 94vh;
+  background-size: cover;
+}
+
+.zapas img {
+  width: 600px;
+  height: 400px;
 }
